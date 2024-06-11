@@ -1,0 +1,23 @@
+\documentclass{article}
+\usepackage{tabularx}
+\begin{document}
+\section*{Student Marks}
+\begin{table}[htbp]
+		\centering
+		\caption{Student Marks Table}
+		\label{tab:student-marks}
+\begin{tabularx}{\textwidth}{|c|c|X|c|c|c}
+		\hline
+		Sno & USN & Student Name & \multicolumn{3}{c|}{Marks} \\
+		\cline{4-6}
+&&& Subject1 & Subject2 & Subject3 \\
+		\hline
+		1 & 1cr22cs110 & Moteesh A  & 98 & 100 & 98 \\
+		\hline
+		2 & 1cr22cs111 & Mahesh  & 78 & 45 & 98 \\
+		\hline
+		2 & 1cr22cs112 & Rajesh  & 78 & 45 & 98 \\
+		\hline
+	\end{tabularx}
+\end{table}
+\end{document} 

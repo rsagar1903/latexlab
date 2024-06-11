@@ -1,0 +1,47 @@
+\documentclass{article}
+\usepackage{graphic x}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Technical Writing using Latex}
+\rfoot{CMRIT \thepage}
+\title{Technical Writing using Latex}
+\author{K.VISHNU CHARAN \\ 1CR22CS084}
+\date{April 2024}
+\begin{document}
+\maketitle
+\section{Program 1}
+Develop a LaTeX script to create a simple document that consists of 2 sections [Section1, Section2], and a
+paragraph with dummy text in each section. And also include header [title of document] and footer
+[institute name, page number] in the document. 
+\section{Program 2}
+Develop a LaTeX script to create a document that displays the sample Abstract/Summary
+\section{Program 12}
+Develop a LaTeX script to create a simple report and article by using suitable commands and formats of
+user choice.
+\section{Program 1}
+Develop a LaTeX script to create a simple document that consists of 2 sections [Section1, Section2], and a
+paragraph with dummy text in each section. And also include header [title of document] and footer
+[institute name, page number] in the document. 
+\section{Program 2}
+Develop a LaTeX script to create a document that displays the sample Abstract/Summary
+\section{Program 12}
+Develop a LaTeX script to create a simple report and article by using suitable commands and formats of
+user choice.
+\section{Program 1}
+Develop a LaTeX script to create a simple document that consists of 2 sections [Section1, Section2], and a
+paragraph with dummy text in each section. And also include header [title of document] and footer
+[institute name, page number] in the document. 
+\section{Program 2}
+Develop a LaTeX script to create a document that displays the sample Abstract/Summary
+\section{Program 12}
+Develop a LaTeX script to create a simple report and article by using suitable commands and formats of
+user choice.
+\section{course outcomes(course skill set):}
+Apply basic LaTeX command to develop simple document
+Develop LaTeX script to present the tables and figures in the document
+Illustrate LaTeX script to present theorems and mathematical equations in the document
+Develop programs to generate the complete report with citations and a bibliography
+Illustrate the use of Tikz and algorithm libraries to design graphics and algorithms in the
+document\\
+\end{document}

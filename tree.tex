@@ -11,13 +11,16 @@
 
 \begin{tikzpicture}
 \Tree
-[.a
-  [.b ]
-  [.c
+[.\node[fill=red]{a};
+  [.\node[fill=green]{b};
+    \node[fill=blue]{f};
+    \node[fill=cyan]{g};
+  ]
+  [.\node[fill=yellow]{c};
     \edge[blank]; \node[blank]{};
-    \edge[]; [.d
-      \edge[]; {e}
-      \edge[blank]; \node[blank]{};
+    \edge[]; [.\node[fill=orange]{d};
+      \node[fill=pink]{e};
+      \node[fill=magenta]{h};
     ]
   ]
 ]
